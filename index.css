@@ -90,6 +90,11 @@ nav a {
 
 }
 
+.container { 
+    margin:0 auto;
+    width: 1024px;
+}
+
 #banner { 
     width: 100%;
     padding: 3%;
@@ -113,3 +118,10 @@ h1 {
     font-size: 5rem;
 }
 
+#top-content { 
+    margin-top:50px; 
+    background-color: #DDB9A3;
+    color:white;
+    padding:3%;
+    margin:25px;
+}
