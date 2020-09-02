@@ -80,14 +80,34 @@ nav a {
     background-color:#FF764E ;
     margin-right: 50px;
 }
+
+#btn-1:hover { 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 2rem;
+
+}
 #btn-2 { 
     background-color:#5ED3EB ;
     margin: 0 50px 0 50px;
+}
+
+#btn-2:hover { 
+    
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size: 2rem;
 }
 #btn-3 { 
     background-color:#FFCD69 ;
     margin-right: 50px;
 
+}
+
+#btn-3:hover { 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 2rem;
 }
 
 .container { 
