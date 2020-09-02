@@ -18,6 +18,9 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
     }
+    * { 
+        max-width:100%
+    }
     html { 
         font-size: 62.5%;
     }
@@ -87,7 +90,26 @@ nav a {
 
 }
 
+#banner { 
+    width: 100%;
+    padding: 3%;
+    
+}
+
+#banner-img { 
+    width:30%;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.banner-text { 
+    width:60%;
+    display: inline-block;
+    margin-left: 50px;
+}
+
 h1 { 
     font-family: 'Chelsea Market', cursive;
-    font-size: 2rem;
+    font-size: 5rem;
 }
+
