@@ -56,10 +56,10 @@ header {
 }
     
 nav { 
-    height: 100px;
+    height: 150px;
     width: 100%;
     text-align: center;
-    margin: 50px 0 20px 0;
+    
 }
 nav a { 
         text-decoration: none;
@@ -93,6 +93,8 @@ nav a {
 .container { 
     margin:0 auto;
     width: 1024px;
+    margin-bottom: -50px;
+
 }
 
 #banner { 
@@ -146,7 +148,20 @@ span {
     font-weight: 600;
 }
 
+.bottom-banner { 
+        height: 300px;
+        margin-top:50px;
+}
+#footer-img { 
+    width: 100%;
+    height:100%;
+    
+}
+
 footer {
-    height: 200px;
+    background-color: #F9E7DC;
+    padding-top: 5%;
 };
+
+
 
