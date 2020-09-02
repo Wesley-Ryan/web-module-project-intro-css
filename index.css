@@ -17,11 +17,16 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
-	}
+    }
+    html { 
+        font-size: 62.5%;
+    }
 body {
 	background: white;
-	line-height: 1;
-	color: black;
+	font-size:1.6rem;
+    line-height:1.5;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
 	}
 ol, ul {
 	list-style: none;
@@ -41,4 +46,48 @@ blockquote:before, blockquote:after, q:before, q:after {
 	}
 blockquote, q {
 	quotes: "" "";
-	}
+    }
+header { 
+    margin-top: 100px;
+    margin: 0 auto;
+}
+    
+nav { 
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+nav a { 
+        text-decoration: none;
+        margin: 10px 16px 10px 16px;
+        color: white;
+    }
+
+    .btn { 
+        display:inline-block;
+        width :200px;
+        padding:1% 0;
+        border-radius:20px;
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+
+#btn-1 { 
+    background-color:#FF764E ;
+    margin-right: 50px;
+}
+#btn-2 { 
+    background-color:#5ED3EB ;
+    margin: 0 50px 0 50px;
+}
+#btn-3 { 
+    background-color:#FFCD69 ;
+    margin-right: 50px;
+
+}
+
+h1 { 
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+}
