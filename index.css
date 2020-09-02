@@ -124,4 +124,29 @@ h1 {
     color:white;
     padding:3%;
     margin:25px;
+    text-align: center;
 }
+
+.tips { 
+    text-align: center;
+    padding: 2%;
+}
+
+.tips img { 
+    width:12%;
+}
+
+.tips p { 
+    width:35%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+span { 
+    font-weight: 600;
+}
+
+footer {
+    height: 200px;
+};
+
